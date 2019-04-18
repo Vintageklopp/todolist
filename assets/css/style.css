@@ -1,0 +1,226 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  background: var(--mainGrey);
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+:root {
+  --primaryBlue: #00b5ec;
+  --primaryGreen: #00b894;
+  --mainWhite: #fff;
+  --mainBlack: #333;
+  --mainGrey: #f5f6fa;
+  --mainRed: #d63031;
+  --mainRedd: #eb3b5a;
+  --mainGreen: #05a081;
+  --mainDarkgreen: #00402e;
+  --mainBlue: #2c3e50;
+  --mainSkyblue: #00b1e4;
+  --mainTurquoise: #12cbc4;
+}
+
+#jumbotron-header {
+  background-color: var(--primaryBlue);
+  color: var(--mainWhite);
+}
+
+.navbar {
+  border-top: 1px solid #f1f1f1;
+}
+
+.navbar li a {
+  color: var(--mainWhite) !important;
+  font-size: 18px;
+}
+
+.navbar li a:hover {
+  color: var(--mainBlue) !important;
+}
+
+.nav-area{
+  background: var(--mainTurquoise);
+}
+
+#nav-section {
+  margin-top: -50px;
+}
+
+/*---------To Do Area Start Start--------*/
+.card {
+  border-radius: 0px;
+}
+
+.form-control {
+  border-radius: 0px;
+}
+
+.add-btn {
+  border-radius: 0px;
+  background: var(--mainTurquoise);
+  color: #fff;
+}
+
+.btn-del {
+  padding: 0.3rem 0.5rem;
+  border-radius: 0px;
+}
+
+.a {
+  text-decoration: none;
+  font-size: 14px;
+}
+
+/*-------To Do Area End  */
+
+/* --------Footer Start------------------ */
+#footer p{
+  color: #999;
+  line-height: 25px;
+}
+
+#footer h2,h3{
+  color: #fff;
+}
+
+#footer h2{
+  font-size: 18px;
+}
+
+.footer-top{
+  background: #111;
+  padding: 80px 0;
+}
+
+.segment-one h3{
+  color: #fff;
+  letter-spacing: 3px;
+  margin: 10px 0;
+}
+
+.segment-two h2{
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.segment-two h2:before {
+  content: '|';
+  color: #c65039;
+  padding-right: 10px;
+}
+
+.segment-two ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.segment-two ul li {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  line-height: 40px;
+}
+
+.segment-two ul li a {
+  color: #999;
+  text-decoration: none;
+}
+
+.segment-three h2 {
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.segment-three h2:before {
+  content: '|';
+  color: #c65039;
+  padding-right: 10px;
+}
+
+.segment-three a {
+  background: #494848;
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  border-radius: 50%;
+}
+
+.segment-three a i {
+  font-size: 20px;
+  color: #fff;
+  padding: 10px 12px;
+}
+
+.segment-four h2 {
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.segment-four h2:before {
+  content: '|';
+  color: #c65039;
+  padding-right: 10px;
+}
+
+.segment-four form input [type=submit] {
+  background: #c65039;
+  border: none;
+  padding: 3px 15px;
+  margin-left: -5px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.segment-four [type=submit] {
+  background: #c65039;
+  border: none;
+  padding: 3px 15px;
+  margin-left: -5px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.footer-bottom-text{
+  text-align: center;
+  background: #000;
+  line-height: 75px;
+}
+
+/*-------Responsive CSS------*/
+@media only screen (min-width: 768px) and (max-width: 991px) {
+  .md-mb-30{
+    margin-bottom: 30px;
+  }
+
+}
+
+@media only screen and (max-width: 767px) {
+  .sm-mb-30{
+    margin-bottom: 30px;
+  }
+
+  .footer-top{
+    padding: 50px 0;
+  }
+
+}
+
+
+
+/*------------Footer End----------------- */
+
+
+
+/*---------Home Section End---------*/
+@media (max-width: 575.98px) {
+  .nav-area{
+    background: var(--mainBlue);
+  }
+ }

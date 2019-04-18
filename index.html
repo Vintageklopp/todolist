@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css"/>
+    <!-- Custom fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway"/>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="assets/fontawesome/css/all.min.css"/>
+    <!-- jQuery first, then Bootstrap JS -->
+    <script type="text/javascript" src="assets/js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="assets/js/bootstrap.js"></script>
+    <script type="assets/js/main.js"></script>
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+    <title>To-Do-List Application</title>
+</head>
+<body>
+  <!-------Header Start------->
+  <div class="jumbotron jumbotron-fluid" id="jumbotron-header">
+     <div class="container">
+       <!---------Header Info Start  -------->
+       <div class="row">
+         <div class="col-md-12 col-xs-12 text-center">
+           <h1 class="display-4">Svenda's To Do List App</h1>
+           <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid sint voluptatem quos debitis voluptatum, adipisci nisi natus molestiae pariatur explicabo ducimus nihil, dolore? Nam harum ipsam recusandae, doloribus reiciendis hic.</p>
+         </div>
+       </div>
+       <!---------Header Info End  -------->
+     </div>
+  </div>
+<!-------Header End------->
+
+<!---------Navbar Start ------->
+<nav class="navbar navbar-expand-sm nav-area navbar-dark" id="nav-section">
+  <div class="container">
+<a class="navbar-brand" href="#">Svenda</a>
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+  <span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbarNav">
+  <ul class="navbar-nav ml-auto">
+    <li class="nav-item">
+          <a class="nav-link" href="schedule.html">schedule<i class="fas fa-clock ml-1"></i></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Logout<i class="fas fa-sign-in-alt ml-1"></i></a>
+    </li>
+  </ul>
+</div>
+</div>
+</nav>
+<!---------Navbar End  -------->
+
+<!-------To Do Area Start ------->
+<div class="container">
+       <div class="row mt-5">
+          <div class="col-md-6 m-auto">
+          <h3 class="text-center mt-3 mb-4 text-dark">To-Do List App For Developers</h3>
+            <div class="card">
+               <div class="card-body">
+                  <form method="" action="">
+                     <p class="alert alert-danger alert-dismissible fade show" role="alert" p-2"> Your Task was succesfully updated
+                       <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                       </button>
+                    </p>
+                     <div class="form-group">
+                       <label for="formGroupExampleInput">Task</label>
+                         <input type="text" name="task" class="form-control task_input" id="formGroupExampleInput" placeholder="Enter Task" >
+                    </div>
+                    <button type="submit" name="submit" class="btn btn-block add-btn"><i class="fas fa-plus mr-2"></i>Add Task</button>
+                  </form>
+              </div>
+            </div>
+         </div>
+       </div>
+    </div>
+
+    <div class="container mt-5">
+    <table class="table table-striped">
+  <thead>
+    <tr>
+      <th scope="col">N</th>
+      <th scope="col">Task</th>
+      <th scope="col">Action</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td class="task">Take a train to Tokyo</td>
+      <td class=""><a href="" class="btn-danger btn-del">Delete</a></td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td class="task">Send a parcel to Senor Jorah</td>
+      <td class=""><a href="" class="btn-danger btn-del">Delete</a></td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td class="task">Pick up the kids from school</td>
+      <td class=""><a href="" class="btn-danger btn-del">Delete</a></td>
+    </tr>
+  </tbody>
+</table>
+
+</div>
+<!-------To Do Area End ------->
+  </body>
+</html>
